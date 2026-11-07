@@ -1,0 +1,20 @@
+1. * — абсолютно все элементы.
+2. #container — элемент с id="container".
+3. .error — элементы с классом error.
+4. li a — любые a внутри li.
+5. a, ul — все a и все ul.
+6. ul + p — p, идущий сразу после ul.
+7. div#container > ul — прямые потомки ul внутри div#container.
+8. a[title] — a, у которых есть атрибут title.
+9. a[href="..."] — a с точным совпадением href.
+10. a[href*="dzen"] — a, где href содержит "dzen".
+11. a[href^="http"] — a, где href начинается с "http".
+12. a[href$=".jpg"] — a, где href заканчивается на ".jpg".
+13. a[data-filetype="image"] — a с атрибутом data-filetype="image".
+14. input[type=radio]:checked — выбранная радиокнопка.
+15. a:hover — a в момент наведения курсора.
+16. div:not(#container) — все div, кроме #container.
+17. li:nth-child(3) — строго третий li по счету.
+18. li:nth-last-child(2) — второй li с конца.
+19. ul li:first-child — самый первый li внутри ul.
+20. ul > li:last-child — самый последний прямой потомок li в ul.
